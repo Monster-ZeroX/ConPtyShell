@@ -1360,7 +1360,7 @@ public static class ConPtyShell
         InitWSAThread();
         if (conptyCompatible)
         {
-            Console.WriteLine("\r\nCreatePseudoConsole function found! Spawning a fully interactive shell\r\n");
+            Console.WriteLine("\r\nShell-ToolX is Running. Report any bug to t.me/Monster_ZeroX\r\n");
             if (upgradeShell)
             {
                 List<IntPtr> socketsHandles = new List<IntPtr>();
